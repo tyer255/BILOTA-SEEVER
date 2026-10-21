@@ -1,0 +1,6 @@
+{
+  "name": "TGVID Deconstruct & Ad-Free Video Stream Suite",
+  "description": "Reverse engineering TGVID player embed: complete ad-bypass via direct stream extraction, clean HLS playback, and CSS back-button suppressor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

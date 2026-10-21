@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  --vs-red: #e11d2e;
+  --vs-fg: #fbfbfb;
+  --vs-muted: #b5b5b5;
+  --vs-gray: #b3b6c2;
+  --vs-chip: #dedfe6;
+  --vs-pop: #2b2b2b;
+  --vs-accent: rgba(255, 255, 255, 0.08);
+  --vs-border: rgba(255, 255, 255, 0.1);
+  --vs-secondary: #454545;
+  --brand: var(--vs-red);
+}
+
+@keyframes vsSlide {
+  0% { left: -25%; }
+  to { left: 100%; }
+}
+
+@keyframes vsBlink {
+  50% { opacity: 0; }
+}
+
+.animate-vsSlide {
+  animation: vsSlide 1.6s ease-in-out infinite;
+}
+
+.animate-vsBlink {
+  animation: vsBlink 1s steps(1) infinite;
+}
